@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 public class DemoController {
     @GetMapping("/home")
     public String home() {
-        return "You just visited /home1";
+        return "You just visited /home11";
     }
     @GetMapping("/end")
     public String end() {
