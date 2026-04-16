@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.*;
 public class DemoController {
     @GetMapping("/home")
     public String home() {
-        return "You just visited /home";
+        return "You just visited /home1";
     }
     @GetMapping("/end")
     public String end() {
-        return "You just visited /end";
+        return "You just visited /end1";
     }
 }
 
